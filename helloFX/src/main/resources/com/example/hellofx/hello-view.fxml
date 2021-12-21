@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="401.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hellofx.HelloController">
+   <children>
+      <ImageView fx:id="img" fitHeight="576.0" fitWidth="401.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Board.png" />
+         </image></ImageView>
+      <Circle id="p2" fx:id="p2" fill="#ff1f1f" layoutX="30.0" layoutY="580.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="p1" fx:id="p1" fill="DODGERBLUE" layoutX="14.0" layoutY="580.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button fx:id="b1" layoutX="172.0" layoutY="586.0" mnemonicParsing="false" onAction="#clicked1" text="-0" />
+      <Button id="b2" fx:id="b2" layoutX="200.0" layoutY="586.0" mnemonicParsing="false" onAction="#clicked2" text="+0" />
+      <TextField id="player1" layoutX="251.0" layoutY="612.0" />
+      <TextField id="player2" layoutY="613.0" />
+   </children>
+</AnchorPane>
