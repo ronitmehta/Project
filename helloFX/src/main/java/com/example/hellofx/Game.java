@@ -6,15 +6,15 @@ public class Game {
 
     }
 
-    public boolean isValidMove(Player p, int num){
-        if(p.getPosition()+num<=100){
+    public boolean isValidMove(Player p, int num, int pos){
+        if(pos+num<=100){
             return true;
         }
         return false;
     }
 
-    public boolean isComplete(Player p){
-        if(p.getIth()==9 && p.getJth()==0){
+    public boolean isComplete(int num){
+        if(num>=100){
             return true;
         }
         else{
