@@ -44,7 +44,7 @@ public class Board {
         ladders.put(8, 25);
         ladders.put(38, 20);
         ladders.put(24, 40);
-        ladders.put(16, 5);
+        ladders.put(16, 18);
         ladders.put(63, 19);
         ladders.put(73, 31);
         ladders.put(70, 21);
